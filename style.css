@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  background-color: #f7fdfc;
+  width: 1440px;
+  height: 840px;
+  margin: auto;
+}
+
+.panel {
+  height: 840px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-panel {
+  width: 460px;
+  height: 275px;
+  flex-shrink: 0;
+}
+h1 {
+  color: var(--cl-black, #000b0a);
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 125% */
+  letter-spacing: -0.8px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.left-panel p {
+  color: var(--CL-Grey, #737373);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 156.25% */
+}
+p.mobile {
+  display: none;
+}
+
+.right-panel {
+  width: 580px;
+  height: 679px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.1);
+}
+
+.form-container {
+  margin: 40px;
+}
+
+.form-display {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.form-label {
+  display: block;
+}
+
+input {
+  width: 238px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 1px solid var(--cl-gray-3, #f0f0f0);
+}
+
+.gender {
+  width: 238px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 1px solid var(--cl-gray-3, #f0f0f0);
+}
+.activity,
+.password {
+  width: 500px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 1px solid var(--cl-gray-3, #f0f0f0);
+  padding-left: 16px;
+}
+
+.input {
+  margin-bottom: 30px;
+}
+.input:hover {
+  border-color: #2ec4b6;
+}
+
+.password-container {
+  display: flex;
+}
+.input-image {
+  margin-top: 16px;
+  margin-left: -32px;
+}
+
+button {
+  width: 500px;
+  height: 48px;
+  flex-shrink: 0;
+  background-color: var(--cl-green, #2ec4b6);
+  filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.1));
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.register {
+  color: var(--basic-100, #fff);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.2px;
+}
+
+.bottom-text {
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 178.571% */
+  text-align: center;
+}
+
+.bottom-text span {
+  color: var(--cl-green, #2ec4b6);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  text-decoration-line: underline;
+}
+
+
