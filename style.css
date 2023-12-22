@@ -152,7 +152,7 @@ button {
   text-decoration-line: underline;
 }
 
-@media (max-width: 374.9px) {
+@media (max-width: 374px) {
   *{
       margin: 0;
       padding: 0;
